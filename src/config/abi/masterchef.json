@@ -3,7 +3,7 @@
     "inputs": [
       {
         "internalType": "contract PtsToken",
-        "name": "_egg",
+        "name": "_pts",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_eggPerBlock",
+        "name": "_ptsPerBlock",
         "type": "uint256"
       },
       {
@@ -154,7 +154,7 @@
   },
   {
     "inputs": [],
-    "name": "egg",
+    "name": "pts",
     "outputs": [
       {
         "internalType": "contract PtsToken",
@@ -168,7 +168,7 @@
   },
   {
     "inputs": [],
-    "name": "eggPerBlock",
+    "name": "ptsPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -545,7 +545,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_eggPerBlock",
+        "name": "_ptsPerBlock",
         "type": "uint256"
       }
     ],
