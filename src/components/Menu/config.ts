@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
+        href: 'https://exchange.pancakeswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
@@ -94,7 +94,7 @@ const config: MenuEntry[] = [
   // {
   //  label: 'Audit by Hacken',
   //  icon: 'AuditIcon',
-  //  href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+  //  href: 'https://www.pancakeswap.finance/files/hackenAudit.pdf',
   // },
   // {
   //  label: 'Audit by CertiK',

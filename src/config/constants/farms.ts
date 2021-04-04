@@ -214,16 +214,8 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
 
-
-
-
-
-
-
-
-
   {
-    pid: 13,
+    pid: 25,
     risk: 5,
     isTokenOnly: true, // 2500
     lpSymbol: 'PTS',
@@ -426,7 +418,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-
 ]
 
 export default farms
