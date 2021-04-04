@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/',
+        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x35c36d08046bb21ab4a1386842614220ddd18804',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x35c36d08046bb21ab4a1386842614220ddd18804',
       },
     ],
   },
@@ -29,6 +29,11 @@ const config: MenuEntry[] = [
     label: 'Papers',
     icon: 'PoolIcon',
     href: '/nests',
+  },
+  {
+    label: 'Audit',
+    icon: 'AuditIcon',
+    href: 'https://printershares.gitbook.io/printersharespts/security/audit',
   },
   // {
   //   label: 'Pools',
@@ -63,7 +68,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0xd84f76bac02c2c23e3261CD6210af451bcd3b172',
       },
     ],
   },
@@ -73,15 +78,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/printerprotocol/',
       },
       {
         label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
+        href: 'https://printershares.gitbook.io/printersharespts/',
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://medium.com/@FLS_PTS/',
       },
     ],
   },
