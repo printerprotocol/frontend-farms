@@ -1,0 +1,1 @@
+#!/bin/bashyarn build && rm -rf ../site/* && mv build/* ../site && cd ../site && git add * && git commit -am "beta version" && git push#

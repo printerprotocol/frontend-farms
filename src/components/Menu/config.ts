@@ -60,11 +60,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
+        href: 'https://www.coingecko.com/en/coins/printer-shares',
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+        href: 'https://coinmarketcap.com/currencies/printer-shares/',
       },
       {
         label: 'AstroTools',
@@ -104,7 +104,7 @@ const config: MenuEntry[] = [
   // {
   //  label: 'Audit by CertiK',
   //  icon: 'AuditIcon',
-  //  href: 'https://certik.org/projects/goose-finance',
+  //  href: 'https://certik.org/projects/printer-shares',
   // },
 ]
 
