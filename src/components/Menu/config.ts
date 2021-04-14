@@ -12,23 +12,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x35c36d08046bb21ab4a1386842614220ddd18804',
+        href: 'https://exchange.printershares.finance/#/swap?inputCurrency=0x35c36d08046bb21ab4a1386842614220ddd18804',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x35c36d08046bb21ab4a1386842614220ddd18804',
+        href: 'https://exchange.printershares.finance/#/add/BNB/0x35c36d08046bb21ab4a1386842614220ddd18804',
       },
     ],
   },
   {
     label: 'Printers',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: '/printers',
   },
   {
     label: 'Papers',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/papers',
   },
   {
     label: 'Audit',
@@ -90,22 +90,6 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  // {
-  //  label: 'Partnerships/IFO',
-  //  icon: 'GooseIcon',
-  //  href:
-  //    'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  // },
-  // {
-  //  label: 'Audit by Hacken',
-  //  icon: 'AuditIcon',
-  //  href: 'https://www.pancakeswap.finance/files/hackenAudit.pdf',
-  // },
-  // {
-  //  label: 'Audit by CertiK',
-  //  icon: 'AuditIcon',
-  //  href: 'https://certik.org/projects/printer-shares',
-  // },
 ]
 
 export default config

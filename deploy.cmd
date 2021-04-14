@@ -1,0 +1,1 @@
+yarn build && rm -rf ../site/* && mv build/* ../site && cd ../site && git add * && git commit -am "automated production deployment" && git push
