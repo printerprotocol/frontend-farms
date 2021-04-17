@@ -18,6 +18,27 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+
+
+
+  {
+    pid: 26,
+    risk: 1,
+    lpSymbol: 'PTS-USDT LP', // 500 400
+    lpAddresses: {
+      97: '',
+      56: '0x813fE0a709e3365fFea6344C7AB4B3b41fC26F72',
+    },
+    tokenSymbol: 'PTS',
+    tokenAddresses: {
+      97: '',
+      56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+  },
+
+
   {
     pid: 1,
     risk: 5,
@@ -34,11 +55,11 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-
+/*
   {
     pid: 11,
     risk: 5,
-    lpSymbol: 'PTS-FLS LP', // 2000
+    lpSymbol: 'FLS-PTS LP', // 2000
     lpAddresses: {
       97: '',
       56: '0x8B0EE61Fa806975Ac573a4e7643F4459ABb0dDFf',
@@ -46,10 +67,10 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'PTS',
     tokenAddresses: {
       97: '',
-      56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
+      56: '0x09879f54b11121CE0457258023401A4CeeF59cfD',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.PTS,
+    quoteTokenAdresses: contracts.fls,
   },
 
   {
@@ -65,10 +86,11 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.FLS,
+    quoteTokenAdresses: contracts.fls,
   },
 
+*/
   {
     pid: 2,
     risk: 3,
@@ -221,7 +243,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PTS',
     lpAddresses: {
       97: '',
-      56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // PTS-BUSD LP
+      56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // PTS-WBNB LP
     },
     tokenSymbol: 'PTS',
     tokenAddresses: {
@@ -231,6 +253,26 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+
+  {
+    pid: 27,
+    risk: 5,
+    isTokenOnly: true, // 1000
+    lpSymbol: 'FLS',
+    lpAddresses: {
+      97: '',
+      56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // FLS
+    },
+    tokenSymbol: 'PTS',
+    tokenAddresses: {
+      97: '',
+      56: '0x09879f54b11121CE0457258023401A4CeeF59cfD',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+
+
   {
     pid: 14,
     risk: 1,
@@ -418,6 +460,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+
 ]
 
 export default farms
