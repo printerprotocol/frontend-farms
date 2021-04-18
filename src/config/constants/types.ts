@@ -59,6 +59,7 @@ export interface FarmConfig {
     earnLabel: string
     endBlock: number
   }
+  decimals: number
 }
 
 export interface PoolConfig {
