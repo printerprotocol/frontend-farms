@@ -17,7 +17,30 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
+
+
+
+  {
+    pid: 26,
+    risk: 1,
+    lpSymbol: 'PTS-USDT LP', // 500 400
+    lpAddresses: {
+      97: '',
+      56: '0x813fE0a709e3365fFea6344C7AB4B3b41fC26F72',
+    },
+    tokenSymbol: 'PTS',
+    tokenAddresses: {
+      97: '',
+      56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+    decimals: 18
+  },
+
+
   {
     pid: 1,
     risk: 5,
@@ -33,12 +56,13 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
+    decimals: 18
   },
 
   {
     pid: 11,
     risk: 5,
-    lpSymbol: 'PTS-FLS LP', // 2000
+    lpSymbol: 'FLS-PTS LP', // 2000
     lpAddresses: {
       97: '',
       56: '0x8B0EE61Fa806975Ac573a4e7643F4459ABb0dDFf',
@@ -46,10 +70,11 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'PTS',
     tokenAddresses: {
       97: '',
-      56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
+      56: '0x09879f54b11121CE0457258023401A4CeeF59cfD',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.PTS,
+    quoteTokenAdresses: contracts.fls,
+    decimals: 18
   },
 
   {
@@ -65,9 +90,11 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.FLS,
+    quoteTokenAdresses: contracts.fls,
+    decimals: 18
   },
+
 
   {
     pid: 2,
@@ -84,6 +111,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 3,
@@ -100,6 +128,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 4,
@@ -116,6 +145,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
+    decimals: 18
   },
   {
     pid: 5,
@@ -132,6 +162,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
+    decimals: 18
   },
   {
     pid: 6,
@@ -148,6 +179,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 7,
@@ -164,6 +196,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 8,
@@ -180,6 +213,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
+    decimals: 18
   },
   {
     pid: 9,
@@ -196,6 +230,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18,
   },
   {
     pid: 10,
@@ -212,6 +247,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
+    decimals: 18,
   },
 
   {
@@ -221,7 +257,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PTS',
     lpAddresses: {
       97: '',
-      56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // PTS-BUSD LP
+      56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // PTS-WBNB LP
     },
     tokenSymbol: 'PTS',
     tokenAddresses: {
@@ -230,7 +266,29 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
+    decimals: 18
   },
+/*
+  {
+    pid: 27,
+    risk: 5,
+    isTokenOnly: true, // 1000
+    lpSymbol: 'FLS',
+    lpAddresses: {
+      97: '',
+      56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // FLS
+    },
+    tokenSymbol: 'PTS',
+    tokenAddresses: {
+      97: '',
+      56: '0x09879f54b11121CE0457258023401A4CeeF59cfD',
+    },
+    quoteTokenSymbol: QuoteToken.FLS,
+    quoteTokenAdresses: contracts.fls,
+    decimals: 9
+  },
+*/
+
   {
     pid: 14,
     risk: 1,
@@ -247,6 +305,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 15,
@@ -264,6 +323,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 16,
@@ -281,6 +341,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 17,
@@ -298,6 +359,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 18,
@@ -315,6 +377,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 19,
@@ -332,6 +395,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 20,
@@ -349,6 +413,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 21,
@@ -366,6 +431,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 22,
@@ -383,6 +449,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 23,
@@ -400,6 +467,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    decimals: 18
   },
   {
     pid: 24,
@@ -417,7 +485,9 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
+    decimals: 18
   },
+
 ]
 
 export default farms

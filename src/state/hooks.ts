@@ -74,10 +74,6 @@ export const usePriceBnbBusd = (): BigNumber => {
 }
 
 export const usePriceCakeBusd = (): BigNumber => {
-  // const pid = 1 // CAKE-BNB LP
-  // const bnbPriceUSD = usePriceBnbBusd()
-  // const farm = useFarmFromPid(pid)
-  // return farm.tokenPriceVsQuote ? bnbPriceUSD.times(farm.tokenPriceVsQuote) : ZERO
   const pid = 0 // PTS-BUSD LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
@@ -92,10 +88,13 @@ export const useTotalValue = (): BigNumber => {
     const farm = farms[i]
     if (farm.lpTotalInQuoteToken) {
       let val
+      // console.log(i, farm.lpSymbol, ', ', farm.quoteTokenSymbol, farm.lpTotalInQuoteToken)
       if (farm.quoteTokenSymbol === QuoteToken.BNB) {
         val = bnbPrice.times(farm.lpTotalInQuoteToken)
       } else if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
         val = cakePrice.times(farm.lpTotalInQuoteToken)
+      } else if (farm.quoteTokenSymbol === QuoteToken.FLS) {
+        val = 0
       } else {
         val = farm.lpTotalInQuoteToken
       }
