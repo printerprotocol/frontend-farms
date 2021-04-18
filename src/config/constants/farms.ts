@@ -58,7 +58,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
     decimals: 18
   },
-/*
+
   {
     pid: 11,
     risk: 5,
@@ -95,7 +95,7 @@ const farms: FarmConfig[] = [
     decimals: 18
   },
 
-*/
+
   {
     pid: 2,
     risk: 3,
