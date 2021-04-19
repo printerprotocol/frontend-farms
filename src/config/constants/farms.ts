@@ -488,6 +488,23 @@ const farms: FarmConfig[] = [
     decimals: 18
   },
 
+  {
+    pid: 28,
+    risk: 5,
+    lpSymbol: 'SAFESTAR-PTS LP', // 4000
+    lpAddresses: {
+      97: '',
+      56: '0x4A1d4f8D45E7655f4107196d8553F24F935531Ef',
+    },
+    tokenSymbol: 'SAFESTAR',
+    tokenAddresses: {
+      97: '',
+      56: '0x3C00F8FCc8791fa78DAA4A480095Ec7D475781e2',
+    },
+    quoteTokenSymbol: QuoteToken.PTS,
+    quoteTokenAdresses: contracts.cake,
+    decimals: 18
+  },
 ]
 
 export default farms
