@@ -12,16 +12,15 @@ interface DepositModalProps {
   onDismiss?: () => void
   tokenName?: string
   depositFeeBP?: number,
-  decimals: number
 }
 
-const DepositModal: React.FC<DepositModalProps> = ({ max, decimals, onConfirm, onDismiss, tokenName = '', depositFeeBP = 0 }) => {
+const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, tokenName = '', depositFeeBP = 0 }) => {
   const [val, setVal] = useState('')
   const [pendingTx, setPendingTx] = useState(false)
   const TranslateString = useI18n()
   const fullBalance = useMemo(() => {
-    return getFullDisplayBalance(max, decimals)
-  }, [max, decimals])
+    return getFullDisplayBalance(max)
+  }, [max])
 
   const handleChange = useCallback(
     (e: React.FormEvent<HTMLInputElement>) => {
