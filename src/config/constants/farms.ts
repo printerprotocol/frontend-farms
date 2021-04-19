@@ -70,11 +70,10 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'PTS',
     tokenAddresses: {
       97: '',
-      56: '0x09879f54b11121CE0457258023401A4CeeF59cfD',
+      56: '0x35c36d08046bb21ab4a1386842614220ddd18804',
     },
     quoteTokenSymbol: QuoteToken.PTS,
-    quoteTokenAdresses: contracts.fls,
-    decimals: 18
+    quoteTokenAdresses: contracts.pts,
   },
 
   {
@@ -85,16 +84,14 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x58f93821c8bBe2F372D373D9d79D08190802eE9e',
     },
-    tokenSymbol: 'PTS',
+    tokenSymbol: 'FLS',
     tokenAddresses: {
       97: '',
-      56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
+      56: '0x09879f54b11121ce0457258023401a4ceef59cfd',
     },
-    quoteTokenSymbol: QuoteToken.FLS,
-    quoteTokenAdresses: contracts.fls,
-    decimals: 18
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
-
 
   {
     pid: 2,
