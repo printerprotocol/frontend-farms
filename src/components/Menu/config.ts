@@ -1,4 +1,4 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from 'printersharesfinance-uikit'
 
 const config: MenuEntry[] = [
   {
@@ -34,6 +34,11 @@ const config: MenuEntry[] = [
     label: 'Audit',
     icon: 'AuditIcon',
     href: 'https://printershares.gitbook.io/printersharespts/security/audit',
+  },
+  {
+    label: 'Roadmap',
+    icon: 'RoadmapIcon',
+    href: 'https://printershares.gitbook.io/printersharespts/roadmap',
   },
   // {
   //   label: 'Pools',
