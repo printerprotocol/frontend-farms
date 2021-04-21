@@ -80,7 +80,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x58f93821c8bBe2F372D373D9d79D08190802eE9e',
     },
-    tokenSymbol: 'FLS',
+    tokenSymbol: 'PTS',
     tokenAddresses: {
       97: '',
       56: '0x09879f54b11121ce0457258023401a4ceef59cfd',
@@ -264,7 +264,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'FLS',
     tokenAddresses: {
       97: '',
-      56: '0x09879f54b11121CE0457258023401A4CeeF59cfD',
+      56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,

@@ -1,5 +1,5 @@
 {
-  "name": "printershares-frontend",
+  "name": "goose-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -31,7 +31,6 @@
     "@binance-chain/bsc-use-wallet": "^0.8.1",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
-    "printersharesfinance-uikit": "0.10.2",
     "@reduxjs/toolkit": "^1.5.0",
     "@truffle/hdwallet-provider": "1.2.6",
     "@types/react": "^17.0.0",
@@ -42,7 +41,8 @@
     "chart.js": "^2.9.4",
     "iframe-resizer-react": "^1.1.0",
     "lodash": "^4.17.20",
-    "react": "^17.0.1",
+    "printersharesfinance-uikit": "^0.10.2",
+    "react": "^17.0.2",
     "react-chartjs-2": "^2.11.1",
     "react-countup": "^4.3.3",
     "react-dom": "^17.0.1",
