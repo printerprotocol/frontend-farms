@@ -261,7 +261,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // FLS
     },
-    tokenSymbol: 'PTS',
+    tokenSymbol: 'FLS',
     tokenAddresses: {
       97: '',
       56: '0x09879f54b11121CE0457258023401A4CeeF59cfD',
