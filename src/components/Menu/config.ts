@@ -7,6 +7,16 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
+    label: 'Buy PTS',
+    icon: 'PTSIcon',
+    href: 'https://exchange.printershares.finance/#/swap?inputCurrency=0x35c36d08046bb21ab4a1386842614220ddd18804',
+  },
+  {
+    label: 'Buy FLS',
+    icon: 'FLSIcon',
+    href: 'https://exchange.printershares.finance/#/swap?inputCurrency=0x09879f54b11121CE0457258023401A4CeeF59cfD',
+  },
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
@@ -22,12 +32,12 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Printers',
-    icon: 'FarmIcon',
+    icon: 'PrintersIcon',
     href: '/printers',
   },
   {
     label: 'Papers',
-    icon: 'PoolIcon',
+    icon: 'PapersIcon',
     href: '/papers',
   },
   {
@@ -92,6 +102,20 @@ const config: MenuEntry[] = [
       {
         label: 'Blog',
         href: 'https://medium.com/@FLS_PTS/',
+      },
+    ],
+  },
+  {
+    label: "BSC Scan",
+    icon: "BSCscanIcon",
+    items: [
+      {
+        label: 'PTS',
+        href: "https://bscscan.com/token/0x35c36d08046bb21ab4a1386842614220ddd18804",
+      },
+      {
+        label: 'FLS',
+        href: "https://bscscan.com/token/0x09879f54b11121CE0457258023401A4CeeF59cfD",
       },
     ],
   },

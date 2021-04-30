@@ -1,5 +1,5 @@
 {
-  "name": "goose-frontend",
+  "name": "PTS-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -41,7 +41,7 @@
     "chart.js": "^2.9.4",
     "iframe-resizer-react": "^1.1.0",
     "lodash": "^4.17.20",
-    "printersharesfinance-uikit": "^0.10.2",
+    "printersharesfinance-uikit": "^0.10.44",
     "react": "^17.0.2",
     "react-chartjs-2": "^2.11.1",
     "react-countup": "^4.3.3",
