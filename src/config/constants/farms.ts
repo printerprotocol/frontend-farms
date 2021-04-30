@@ -259,12 +259,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'FLS',
     lpAddresses: {
       97: '',
-      56: '0xcf2f5b9c518E36d40E4D797aF00101d31e0C52e0', // FLS
+      56: '0x09879f54b11121ce0457258023401a4ceef59cfd', // FLS
     },
     tokenSymbol: 'FLS',
     tokenAddresses: {
       97: '',
-      56: '0x35c36D08046BB21Ab4a1386842614220ddD18804',
+      56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
